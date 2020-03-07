@@ -442,8 +442,8 @@ body {
   position: relative;
   list-style: none;
   overflow: hidden;
+  text-align: center;
   width: 100%;
-  padding: 0;
   margin: 0;
   }
 
@@ -452,8 +452,8 @@ body {
   position: absolute;
   display: none;
   width: 100%;
-  left: 0;
-  top: 0;
+  text-align: center;
+  padding: 5% 30%;
   }
 
 .rslides li:first-child {
@@ -461,6 +461,24 @@ body {
   display: block;
   float: left;
   }
+
+
+.recommendaton-quotes {
+  position: relative;
+  font-size: 2rem;
+}
+
+.recommendation-from {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.quote-mark {
+  font-size: 5rem;
+  color: #FCEE2C;
+  float: left;
+  top: 0%;
+}
 
   /************* ROTATING BLOCK QUOTES ON ABOUT END **************/
 

@@ -255,9 +255,13 @@ body {
 /* ********************************** END SOCIAL ICONS *********************** */
 
 
-.home-boxes-container {
+.home-boxes-container, .portfolio-boxes-container {
   max-width: 1470px;
   margin: auto;
+}
+
+.portfolio-boxes-container {
+  padding-top: 8%;
 }
 
 .box-container {

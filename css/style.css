@@ -629,15 +629,29 @@ section {
 
 /*************************** need to clean these up ***************************/
 /* Title box */
-.title-box h2 {
-	display: block;
-	margin: 7px;
-	padding: 20px;
-	background: #fcee2c;
-	color: #000;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 300;
+
+.title-box-web-design h2 {
+  background: #fcee2c;
+}
+
+.title-box-animation h2 {
+  background: #765473;
+}
+
+.title-box-illustration h2 {
+  background: #CF922A;
+}
+
+.title-box-video h2 {
+  background: #765473;
+}
+
+.title-box-print h2 {
+  background: #FCEE2C;
+}
+
+.title-box-campaigns h2 {
+  background: #83AF23;
 }
 
 .title-box-web-design h2 {
@@ -655,7 +669,6 @@ section {
   display: block;
 	margin: 7px;
 	padding: 20px;
-	background: #765473;
 	color: #000;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -666,7 +679,6 @@ section {
   display: block;
 	margin: 7px;
 	padding: 20px;
-	background: #CF922A;
 	color: #000;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -677,7 +689,6 @@ section {
   display: block;
 	margin: 7px;
 	padding: 20px;
-	background: #765473;
 	color: #000;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -688,7 +699,6 @@ section {
   display: block;
 	margin: 7px;
 	padding: 20px;
-	background: #FCEE2C;
 	color: #000;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -699,7 +709,6 @@ section {
   display: block;
 	margin: 7px;
 	padding: 20px;
-	background: #83AF23;
 	color: #000;
 	text-transform: uppercase;
 	letter-spacing: 1px;

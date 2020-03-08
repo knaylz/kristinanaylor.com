@@ -477,6 +477,7 @@ body {
   font-size: 5rem;
   color: #FCEE2C;
   float: left;
+  display: block;
   top: 0%;
 }
 
@@ -1015,6 +1016,37 @@ section {
     margin-top: 13.4%;
   }
 
+  .rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    }
+
+  .rslides li {
+    padding: 3%;
+    }
+
+  .rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+    }
+
+    .quote-mark {
+      display: none;
+    }
+
+    .quote-mark-mobile {
+      display: block;
+      text-align: center;
+      font-size: 5rem;
+      color: #FCEE2C;
+      top: 0%;
+    }
+
 }
 
 /* ***************************************** ABOUT MIN-WIDTH 320PX END ******************************** */
@@ -1077,6 +1109,11 @@ section {
     .kristina-hero {
       margin-top: 6%;
     }
+
+    .rslides li {
+      padding: 5% 10%;
+      }
+
 }
 /* ***************************************** ABOUT MIN-WIDTH 560PX END ********************************* */
 /* ************************************ ABOUT MIN-WIDTH 700PX START ************************************ */
@@ -1099,13 +1136,27 @@ section {
   margin-top: 3%;
 }
 
-
 #wrapper_header, #header {
   display: block;
 }
 
+.quote-mark {
+  display: block;
+}
+
+.quote-mark-mobile {
+  display: none;
+}
+
 }
 /* ************************************* ABOUT MIN-WIDTH 700PX END ************************************ */
+/* ************************************* ABOUT MIN-WIDTH 800PX START ********************************** */
+@media (min-width: 800px) {}
+.rslides li {
+  padding: 5% 30%;
+}
+}
+/* ************************************* ABOUT MIN-WIDTH 800PX END ************************************ */
 /* ************************************* ABOUT MIN-WIDTH 1000PX START ********************************* */
 @media (min-width: 1000px) {
 

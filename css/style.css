@@ -135,8 +135,6 @@ body {
 }
 
 #wrapper_header{
-  height: 690px;
-  /*background-color:black; */
   background-image: url(images/kristina-hero-img.png);
 }
 #header{
@@ -173,6 +171,8 @@ body {
   -ms-filter: "FlipH";
 }
 
+
+/*********************************** HOJME PAGE MIN-WIDTH MEDIA QUERY 320PX ********************************/
 /* ****************************** END PARALLAX HOME ************************ */
 
 /***************************************** START SOCIAL ICONS ******************************************/

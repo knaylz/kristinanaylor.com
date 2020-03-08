@@ -137,19 +137,6 @@ body {
 #wrapper_header{
   background-image: url(images/kristina-hero-img.png);
 }
-#header{
-  opacity:0.5;
-  overflow: hidden;
-  width: 100%;
-  height: 690px;
-  position: absolute;
-	background-position: center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-ms-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
 
 .homepage-hero {
   max-width: 100%;

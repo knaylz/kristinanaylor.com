@@ -178,7 +178,7 @@ body {
 /***************************************** START SOCIAL ICONS ******************************************/
 
 .social-icons {
-  max-width: 25px;
+  max-width: 29px;
 }
 #social-sidebar {
 	left: 0;
@@ -194,8 +194,8 @@ body {
 	color: #fff;
     text-decoration: none;
 	display: block;
-	height: 50px;
-	width: 50px;
+	height: 70px;
+	width: 80px;
 	font-size: 24px;
 	line-height: 50px;
 	position: relative;
@@ -634,9 +634,114 @@ body {
 }
 
 #wrapper_header, #header {
+  margin-top: 17%;
+}
+
+.box-container {
+  padding: 0%;
+}
+
+.box-one, .box-two, .box-three, .box-four, .box-five, .box-six {
+  margin: 20px 0%;
+}
+
+#social-sidebar {
   display: none;
 }
+
+
+
 }
+/* **************************************************** ABOUT MIN-WIDTH 300PX END ******************* */
+/* **************************************************** ABOUT MIN-WIDTH 313PX START ******************* */
+@media (min-width: 313px) {
+  #wrapper_header, #header {
+    margin-top: 15%;
+  }
+}
+/* **************************************************** ABOUT MIN-WIDTH 313PX END ******************* */
+/* **************************************************** ABOUT MIN-WIDTH 348PX START ******************* */
+@media (min-width: 348px) {
+  #wrapper_header, #header {
+    margin-top: 11%;
+  }
+}
+/* **************************************************** ABOUT MIN-WIDTH 348PX END ******************* */
+/* **************************************************** ABOUT MIN-WIDTH 444PX START ******************* */
+@media (min-width: 444px) {
+  #wrapper_header, #header {
+    margin-top: 8%;
+  }
+}
+/* **************************************************** ABOUT MIN-WIDTH 444PX END ******************* */
+/* **************************************************** ABOUT MIN-WIDTH 567PX END ******************* */
+@media (min-width: 567px) {
+  #wrapper_header, #header {
+    margin-top: 5%;
+  }
+}
+/* **************************************************** ABOUT MIN-WIDTH 567PX END ******************* */
+/* **************************************************** ABOUT MIN-WIDTH 600PX END ******************* */
+@media (min-width: 600px) {
+  .box-one, .box-two, .box-three, .box-four, .box-five, .box-six {
+    margin: 20px 5%;
+  }
+}
+/* **************************************************** ABOUT MIN-WIDTH 600PX END ******************* */
+/* **************************************************** ABOUT MIN-WIDTH 750PX START ******************* */
+@media (min-width: 750px) {
+  .box-one, .box-two, .box-three, .box-four, .box-five, .box-six {
+    margin: 20px 2%;
+  }
+
+#social-sidebar {
+  display: block;
+}
+
+}
+/* **************************************************** ABOUT MIN-WIDTH 769PX START ******************* */
+@media (min-width: 769px) {
+  #wrapper_header, #header {
+    margin-top: 3%;
+  }
+}
+/* **************************************************** ABOUT MIN-WIDTH 769PX END ******************* */
+/* **************************************************** ABOUT MIN-WIDTH 1006PX START ******************* */
+@media (min-width: 1006px) {
+  #wrapper_header, #header {
+    margin-top: 2%;
+  }
+}
+/* **************************************************** ABOUT MIN-WIDTH 1006PX END ******************* */
+/* **************************************************** ABOUT MIN-WIDTH 1191PX START ***************** */
+@media (min-width: 1006px) {
+  #wrapper_header, #header {
+    margin-top: 1%;
+  }
+}
+
+/* **************************************************** ABOUT MIN-WIDTH 1191PX END ***************** */
+/* **************************************************** ABOUT MIN-WIDTH 1429PX START ***************** */
+@media (min-width: 1429px) {
+  .box-container {
+    padding: 0% 10%;
+  }
+
+  #wrapper_header, #header {
+    margin-top: 0%;
+  }
+
+}
+
+/* **************************************************** ABOUT MIN-WIDTH 1429PX END ******************* */
+/*********************************** ABOUT MIN-WIDTH 1889PX START ******************************************/
+@media (min-width: 1889px) {
+  #wrapper_header, #header {
+    margin-top: -2%;
+  }
+}
+
+/*********************************** ABOUT MIN-WIDTH 1889PX END ******************************************/
 
 /*********************************** FOR PORTFOLIO PAGES START ******************************************/
 

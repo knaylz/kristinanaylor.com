@@ -498,6 +498,101 @@ body {
   padding-left: 180px;
 }
 
+/* ------------------------------------------------------------------------------------*/
+/*                                    Contact Page                                        */
+/* ------------------------------------------------------------------------------------*/
+
+.contact-section {
+  padding: 14% 0%;
+}
+
+.contact-p {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+/* **************************************************** ABOUT MIN-WIDTH 320PX START ******************* */
+@media (min-width: 320px) {
+.contact-section {
+  padding: 14% 0%;
+}
+
+.contact-h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 16% 15% 3% 15%;
+}
+}
+/* **************************************************** ABOUT MIN-WIDTH 320PX END ******************* */
+/* **************************************************** ABOUT MIN-WIDTH 426PX START ***************** */
+@media (min-width: 426px) {
+.contact-section {
+  padding: 14% 0%;
+}
+
+.contact-h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 14% 10% 3% 10%;
+}
+}
+/* **************************************************** ABOUT MIN-WIDTH 426PX START ***************** */
+/* **************************************************** ABOUT MIN-WIDTH 536PX START ***************** */
+@media (min-width: 536px) {
+.contact-section {
+  padding: 14% 0%;
+}
+
+.contact-h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 14% 13% 3% 13%;
+}
+}
+/* **************************************************** ABOUT MIN-WIDTH 520PX END ***************** */
+/* **************************************************** ABOUT MIN-WIDTH 580PX START ***************** */
+@media (min-width: 580px) {
+.contact-section {
+  padding: 14% 0%;
+}
+
+.contact-h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 9% 15% 3% 15%;
+}
+}
+/* **************************************************** ABOUT MIN-WIDTH 580PX END ***************** */
+/* **************************************************** ABOUT MIN-WIDTH 715PX END ******************* */
+@media (min-width: 715px) {
+.contact-section {
+  padding: 9% 0% 7% 0%;
+}
+
+.contact-h1 {
+  padding: 6% 20% 3% 20%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+}
+/* **************************************************** ABOUT MIN-WIDTH 715PX END ******************* */
+/* **************************************************** ABOUT MIN-WIDTH 900PX END ******************* */
+@media (min-width: 715px) {
+.contact-section {
+  padding: 9% 0% 7% 0%;
+}
+
+.contact-h1 {
+  padding: 6% 20% 3% 20%;
+  text-align: center;
+  font-size: 3rem;
+}
+}
+
+/* **************************************************** ABOUT MIN-WIDTH 900PX END ******************* */
+
+
+
 /* ************************************PAINT DROPS START (do these later)******************************** */
 /* **************************************************** ABOUT MIN-WIDTH 300PX START ******************* */
 @media (min-width: 300px) {
@@ -946,6 +1041,11 @@ section {
 .grid li.shown h3 {
 	visibility: visible;
 }
+/*
+.portfolio-sections-aside {
+  text-orientation: sideways;
+}
+*/
 /*********************************** FOR PORTFOLIO PAGES END ******************************************/
 
 /* ***************************************** ABOUT MIN-WIDTH 320PX START ******************************* */

@@ -125,9 +125,9 @@ footer {
   bottom: 0;
 }
 
-/* ----------------------------------------------------------------------------*/
-/*                                    Home Page                                */
-/* ----------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------*/
+/*                                    Home Page                                        */
+/* ------------------------------------------------------------------------------------*/
 
 /* ******************************* START PARALLAX HOME *********************** */
 body {
@@ -166,7 +166,7 @@ body {
 
 /* ****************************** END PARALLAX HOME ************************ */
 
-/***************************** START SOCIAL ICONS ******************************/
+/***************************************** START SOCIAL ICONS ******************************************/
 
 .social-icons {
   max-width: 25px;
@@ -252,7 +252,7 @@ body {
 #social-sidebar a[class*="evernote"] span,
 #social-sidebar a[class*="evernote"] span:before {background: #6BB130;}
 
-/* ********************************** END SOCIAL ICONS *********************** */
+/* ************************************** END SOCIAL ICONS *********************************** */
 
 
 .home-boxes-container, .portfolio-boxes-container {
@@ -388,16 +388,14 @@ body {
   box-shadow: 0 0 3px #CF922A;
 }
 
-/* ****************** START HOME PAGE MEDIA QUERY MIN WIDTH 1360PX ******************* */
 .box-container {
     padding: 0 7%;
   }
 }
-/* ****************** START HOME PAGE MEDIA QUERY MIN WIDTH 1360PX ******************* */
 
-/* -----------------------------------------------------------------------------*/
-/*                                   About Page                                */
-/* ----------------------------------------------------------------------------*/
+/* -------------------------------------------------------------------------------------*/
+/*                                          About Page                                  */
+/* -------------------------------------------------------------------------------------*/
 
 .about-h1 {
   position: absolute;
@@ -412,7 +410,6 @@ body {
 
 .about-hero-image-section img{
   background-position: center;
-  position: relative;
   max-width: 100%;
   padding-top: 5.2%;
 }
@@ -437,7 +434,7 @@ body {
 .about-span {
   display: none;
 }
-/************* ROTATING BLOCK QUOTES ON ABOUT START **************/
+/********************* ROTATING BLOCK QUOTES ON ABOUT START ***********************/
 .rslides {
   position: relative;
   list-style: none;
@@ -481,7 +478,7 @@ body {
   top: 0%;
 }
 
-  /************* ROTATING BLOCK QUOTES ON ABOUT END **************/
+  /************************* ROTATING BLOCK QUOTES ON ABOUT END ******************************/
 
 
 /* ************************************PAINT DROPS START (do these later)****************************** */
@@ -568,7 +565,6 @@ body {
 	font-weight: 300;
 }
 
-/* Demo links */
 .codrops-demos {
 	padding-top: 50px;
 }
@@ -629,6 +625,22 @@ section {
 	text-align: left;
 }
 
+.box-container-portfolio {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+    top: 200px;
+    z-index: 80;
+    margin-bottom: 5px;
+    padding: 0 7%;
+    width: 100%;
+    height: auto;
+}
+
+
+/******************** START PORTFOLIO CATEGORY PAGES MIN-WIDTH 25 ******************/
 @media screen and (max-width: 25em) {
 
 	.codrops-icon span {
@@ -636,7 +648,7 @@ section {
 	}
 
 }
-
+/* **************** END PORTFOLIO CATEGORY PAGES MIN-WIDTH 25 *********************/
 .grid-wrap {
 	clear: both;
 	margin: 0 auto;
@@ -1151,7 +1163,7 @@ section {
 }
 /* ************************************* ABOUT MIN-WIDTH 700PX END ************************************ */
 /* ************************************* ABOUT MIN-WIDTH 800PX START ********************************** */
-@media (min-width: 800px) {}
+@media (min-width: 800px) {
 .rslides li {
   padding: 5% 30%;
 }
@@ -1178,7 +1190,6 @@ section {
 
 .about-hero-image-section img{
   background-position: center;
-  position: relative;
   width: 100%;
 }
 
@@ -1208,6 +1219,46 @@ section {
 
 .copyright {
   font-size: .5rem;
+  }
 }
-
 /* ********************************* ABOUT MIN-WIDTH 1000PX END ********************************* */
+/* ********************************* PORTFOLIO MIN-WIDTH 320pxPX START *************************** */
+@media (min-width: 320px) {
+
+.box-container-portfolio {
+    padding: 14% 0% 7% 0%;
+}
+}
+/* ********************************* PORTFOLIO MIN-WIDTH 320PX END ***************************** */
+/* ********************************* PORTFOLIO MIN-WIDTH 520PX START ***************************** */
+@media (min-width: 520px) {
+
+.box-container-portfolio {
+    padding: 10% 0% 7% 0%;
+}
+}
+/* ********************************* PORTFOLIO MIN-WIDTH 520PX END ***************************** */
+/* ********************************* PORTFOLIO MIN-WIDTH 680PX START ***************************** */
+@media (min-width: 680px) {
+
+.box-container-portfolio {
+    padding: 5% 0% 3% 0%;
+}
+}
+/* ********************************* PORTFOLIO MIN-WIDTH 680PX END ***************************** */
+/* ********************************* PORTFOLIO MIN-WIDTH 1360PX START ***************************** */
+@media (min-width: 1360px) {
+
+.box-container-portfolio {
+    padding: 2% 10% 3% 10%;
+}
+}
+/* ********************************* PORTFOLIO MIN-WIDTH 1360PX END ***************************** */
+/* ********************************* PORTFOLIO MIN-WIDTH 1650PX START ***************************** */
+@media (min-width: 1360px) {
+
+.box-container-portfolio {
+    padding: 1% 10% 3% 10%;
+}
+}
+/* ********************************* PORTFOLIO MIN-WIDTH 1650PX END ***************************** */

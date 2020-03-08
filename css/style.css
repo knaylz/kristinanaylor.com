@@ -136,7 +136,8 @@ body {
 
 #wrapper_header{
   height: 690px;
-  background-color:black;
+  /*background-color:black; */
+  background-image: url(images/kristina-hero-img.png);
 }
 #header{
   opacity:0.5;
@@ -144,13 +145,21 @@ body {
   width: 100%;
   height: 690px;
   position: absolute;
-  background-image: url(images/kristina-illustration.jpg);
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-ms-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+.homepage-hero {
+  max-width: 100%;
+}
+
+.homepage-img {
+  max-width: 100%;
+  margin-top: 6%;
 }
 
 #element1, #element2{

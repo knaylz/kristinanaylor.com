@@ -692,91 +692,17 @@ section {
 /*************************** need to clean these up ***************************/
 /* Title box */
 
-.title-box-web-design h2 {
-  background: #fcee2c;
-}
-
-.title-box-animation h2 {
-  background: #765473;
-}
-
-.title-box-illustration h2 {
-  background: #CF922A;
-}
-
-.title-box-video h2 {
-  background: #765473;
-}
-
-.title-box-print h2 {
-  background: #FCEE2C;
-}
-
-.title-box-campaigns h2 {
-  background: #83AF23;
-}
-
-.title-box-web-design h2 {
+.title-box {
   display: block;
 	margin: 7px;
 	padding: 20px;
 	background: #83AF23;
+  background: #FCEE2C;
 	color: #000;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 300;
 }
-
-.title-box-animation h2 {
-  display: block;
-	margin: 7px;
-	padding: 20px;
-	color: #000;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 300;
-}
-
-.title-box-illustration h2 {
-  display: block;
-	margin: 7px;
-	padding: 20px;
-	color: #000;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 300;
-}
-
-.title-box-video h2 {
-  display: block;
-	margin: 7px;
-	padding: 20px;
-	color: #000;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 300;
-}
-
-.title-box-print h2 {
-  display: block;
-	margin: 7px;
-	padding: 20px;
-	color: #000;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 300;
-}
-
-.title-box-campaigns h2 {
-  display: block;
-	margin: 7px;
-	padding: 20px;
-	color: #000;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 300;
-}
-
 
 .title-box h2 a {
 	display: block;
